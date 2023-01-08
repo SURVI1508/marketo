@@ -1,0 +1,29 @@
+.dropDown__main_div {
+    position: relative;
+}
+
+.dropDown__div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    background: #51aa1b;
+    width: 17rem;
+    height: 3.5rem;
+    color: white;
+    font-size: 17px;
+    gap: 1rem;
+}
+
+.dropDown__div select {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.categories {
+    width: 100%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

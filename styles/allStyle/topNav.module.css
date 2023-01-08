@@ -1,0 +1,27 @@
+.topNav__div {
+    background: #51aa1b;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.features__text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    border-left: 1px solid white;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+
+}
