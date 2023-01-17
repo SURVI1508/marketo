@@ -3,6 +3,7 @@ import styles from '../../styles/allStyle/hero.module.css'
 const Hero = () => {
   return (
     <>
+  
       {/* <Carousel variant="dark">
         <Carousel.Item>
           <img

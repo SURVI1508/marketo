@@ -7,8 +7,8 @@
 }
 
 .search__input__container {
-    border: 1px solid gray;
-    padding-left: 1rem;
+    border: 2px solid rgba(128, 128, 128, 0.31);
+    padding:0.3rem;
     border-radius: 5px;
     height: auto;
     width: auto;
@@ -18,7 +18,7 @@
     justify-content: center;
     gap: 0.3rem;
     overflow: hidden;
-
+    position: relative;
 }
 
 .search__box {
@@ -34,13 +34,12 @@
 
 .select_input {
     width: 10rem;
-
     border: none;
     outline: none;
 }
 
 .search__btn {
-    height: 2rem;
+    height: 100%;
     width: 4rem;
     background: #51aa1b;
     color: white;
@@ -48,6 +47,8 @@
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
+    position: absolute;
+    right: 0;
 }
 
 .search__btn:hover {
@@ -72,12 +73,12 @@
     color: white;
     height: 15px;
     width: 15px;
-    padding: .1rem;
+    padding: .2rem;
     border-radius: 50%;
     font-size: 15px;
     position: absolute;
-    top: -0.5rem;
-    left: 1.4rem;
+    top: 0.7rem;
+    left: 1.3rem;
     border: 2px solid white;
 }
 
@@ -89,12 +90,11 @@
     color: white;
     height: 15px;
     width: 15px;
-    padding: .1rem;
+    padding: .2rem;
     border-radius: 50%;
     font-size: 15px;
     position: absolute;
-    top: -0.5rem;
+    top: 0.7rem;
     left: 5rem;
     border: 2px solid white;
-
 }

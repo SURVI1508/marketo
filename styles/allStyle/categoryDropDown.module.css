@@ -8,11 +8,12 @@
     align-items: center !important;
     justify-content: center;
     background: #51aa1b;
-    width: 17rem;
+    width: 16rem;
     height: 3.5rem;
     color: white;
     font-size: 17px;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .dropDown__div select {
@@ -26,4 +27,26 @@
     position: absolute;
     background: rgb(255, 255, 255);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: none;
+    /* transition: 0.5s; */
+    /* animation: bounce;
+    animation-duration: 2s; */
+}
+
+.categories li {
+    font-size: 20px;
+    list-style: none;
+    padding: 0.5rem 1.2rem;
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.229);
+}
+
+.categories li:hover {
+    color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.arrow {
+    /* color: #aa1b1b; */
+    /* transform: rotate(3.142rad); */
 }
