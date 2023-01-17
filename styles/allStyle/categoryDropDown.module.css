@@ -50,3 +50,9 @@
     /* color: #aa1b1b; */
     /* transform: rotate(3.142rad); */
 }
+
+@media (max-width:750px) {
+.dropDown__main_div {
+    display: none;
+}
+}

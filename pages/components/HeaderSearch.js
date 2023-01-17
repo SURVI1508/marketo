@@ -2,6 +2,7 @@ import styles from '../../styles/allStyle/headerSearch.module.css'
 import { FiHeart } from 'react-icons/fi';
 import { BsHandbag } from 'react-icons/bs';
 import { GoSearch } from 'react-icons/go';
+import { HiMenu } from 'react-icons/hi';
 
 const HeaderSearch = () => {
     return (
@@ -23,13 +24,16 @@ const HeaderSearch = () => {
                     <GoSearch />
                 </div>
             </div>
+            <div className={styles.menue__btn}>
+                <HiMenu />
+            </div>
             <div className={styles.cart_and_like}>
                 <div>
-                    <div className={styles.count}>0</div>
+                    <div className={styles.count}>5</div>
                     <FiHeart />
                 </div>
                 <div>
-                    <div className={styles.catrt_count}>0</div>
+                    <div className={styles.catrt_count}>7</div>
                     <BsHandbag />
                 </div>
             </div>
