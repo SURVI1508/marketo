@@ -1,0 +1,121 @@
+.footer__mainDiv {
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+.footer__container {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links__container {
+    width: 80%;
+    height: 300px;
+    /* border: 3px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+
+.contactUs__container {
+    width: auto;
+    height: 100%;
+
+    /* background: yellow; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+
+}
+
+
+.links__container p a {
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.copyright__container {
+    background: rgba(211, 211, 211, 0.15);
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.question {
+    font-size: 2rem;
+}
+
+.map__btn {
+    border: none;
+    outline: none;
+    background: #FF6251;
+    width: 10rem;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.goTop__btn {
+    border: none;
+    outline: none;
+    background: #FF6251;
+    width: 11rem;
+    padding:0.8rem 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+.map__btn:hover {
+    background: #000000;
+    transition: 0.4s;
+}
+
+@media (max-width:1000px) {
+    .footer__mainDiv {
+        height: auto;
+    }
+
+    .footer__container {
+        height: auto;
+    }
+
+    .contactUs__container {
+        height: 200px;
+        width: 100%;
+    }
+
+    .links__container {
+        height: auto;
+    }
+
+
+    .copyright__container {
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

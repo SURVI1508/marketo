@@ -4,6 +4,12 @@ import About from './components/About'
 import Navigator from './components/Navigator'
 import Slider from './components/Slider'
 import Category from './components/Category'
+import Footer from './components/Footer'
+import GetUpdate from './components/GetUpdate'
+import Sponcered from './components/Sponcered'
+import MarketPlace from './components/MarketPlace'
+import CustomerAnalysis from './components/CustomerAnalysis'
+import GoodFood from './components/GoodFood'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +21,13 @@ const Main = () => {
             {/* <Navigator /> */}
             {/* <About /> */}
             <Slider />
-            <Category />
+            {/* <Category /> */}
+            <GoodFood/>
+            <CustomerAnalysis/>
+            <MarketPlace/>
+            <Sponcered/>
+            <GetUpdate/>
+            <Footer/>
         </div>
     )
 }

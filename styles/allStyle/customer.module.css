@@ -1,0 +1,36 @@
+.customerAnalysis__main__div {
+    width: 100%;
+    padding: 3rem 0rem;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #dffff6 0%, #eefde9 100%);
+}
+
+.customerAnalysis__main__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 5rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.customer {
+    /* margin: 0 1rem; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.customer h4{
+    color: #51aa1b;
+}
+.customer p{
+    font-weight: 500;
+    font-size: 2rem;
+}
