@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.copyright__container}>
-                    All Rights Reserved ©Copyright 2018 by XpeedStudio
+                    All Rights Reserved ©Copyright 2023 by survi 💖
                 </div>
             </div>
         </>

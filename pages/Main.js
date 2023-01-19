@@ -10,24 +10,29 @@ import Sponcered from './components/Sponcered'
 import MarketPlace from './components/MarketPlace'
 import CustomerAnalysis from './components/CustomerAnalysis'
 import GoodFood from './components/GoodFood'
+import Descover from './components/Descover'
+import BonusImg from './components/BonusImg'
+import Features from './components/Features'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Main = () => {
     return (
         <div>
-
             <Header />
             {/* <Navigator /> */}
             {/* <About /> */}
             <Slider />
             {/* <Category /> */}
-            <GoodFood/>
-            <CustomerAnalysis/>
-            <MarketPlace/>
-            <Sponcered/>
-            <GetUpdate/>
-            <Footer/>
+            <Features />
+            <BonusImg />
+            <Descover />
+            <GoodFood />
+            <CustomerAnalysis />
+            <MarketPlace />
+            <Sponcered />
+            <GetUpdate />
+            <Footer />
         </div>
     )
 }

@@ -1,0 +1,102 @@
+.descover__main__div {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 2rem 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descover__main__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+.descover__main__nav {
+    border-bottom: 0.0001px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+
+}
+
+.descover__main__nav li {
+    display: inline;
+    margin: 0 1rem;
+    cursor: pointer;
+    height: 100%;
+    font-weight: bold;
+    /* border-bottom: 1px solid red; */
+}
+
+.descover__main__nav li:hover {
+    color: #51aa1b;
+    transition: 0.3s;
+}
+
+.cart__item__container {
+    /* border: 2px solid rgb(76, 0, 255); */
+    padding: 1rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart__item__card {
+    border-right: 0.00001px solid lightgray;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.cart__item__card :hover {
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.cart__item__card img {
+    max-width: 100%;
+}
+
+.price__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.price__container del {
+    color: lightgray;
+    font-weight: 400;
+}
+
+.price__container span {
+    color: #51aa1b;
+    font-weight: bold;
+}
+
+.cart__item__card__info p {
+    font-weight: bold;
+}
+.cart__item__card__info p:hover {
+color: 
+#007bff;
+transition: 0.3s;
+cursor: pointer;
+}
