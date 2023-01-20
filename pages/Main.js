@@ -13,6 +13,8 @@ import GoodFood from './components/GoodFood'
 import Descover from './components/Descover'
 import BonusImg from './components/BonusImg'
 import Features from './components/Features'
+import TrendingItem from './components/TrendingItem'
+import CatItem from './components/CatItem'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,7 +25,9 @@ const Main = () => {
             {/* <Navigator /> */}
             {/* <About /> */}
             <Slider />
-            {/* <Category /> */}
+            <Category />
+            <CatItem/>
+            <TrendingItem/>
             <Features />
             <BonusImg />
             <Descover />

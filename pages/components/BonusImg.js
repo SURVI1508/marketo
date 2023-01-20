@@ -8,7 +8,6 @@ const BonusImg = () => {
         <div className={styles.juice__img}>
             <img src="/images/bonus.png" alt="" style={{maxWidth:"100%"}}/>
         </div>
-       
     </div>
 </div>
   )

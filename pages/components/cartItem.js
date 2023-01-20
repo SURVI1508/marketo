@@ -3,7 +3,8 @@ const items = [
         id: "1",
         img: "/images/item1.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     },
@@ -11,7 +12,8 @@ const items = [
         id: "2",
         img: "/images/item2.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     },
@@ -19,7 +21,8 @@ const items = [
         id: "3",
         img: "/images/item3.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     },
@@ -27,7 +30,8 @@ const items = [
         id: "4",
         img: "/images/item4.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     },
@@ -35,7 +39,8 @@ const items = [
         id: "5",
         img: "/images/item5.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     },
@@ -43,7 +48,8 @@ const items = [
         id: "6",
         img: "/images/item6.jpg",
         name: "Hento Deals Security Tire Grid",
-        description: "",
+        para: "Water Features And Exterior DesignWater Features And Exterior Design",
+
         price: "$44",
         category: "beuty",
     }
