@@ -11,7 +11,7 @@
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .overlay {
@@ -132,12 +132,7 @@
     }
 } */
 @media (max-width:400px) {
-    .slider__container {
-        justify-content: center;
-        padding: 0;
-        text-align: center;
-        gap: 1rem;
-    }
+
 
     .slider__container h1 {
         font-weight: 700;
@@ -148,6 +143,27 @@
     .slider__container p {
         font-size: 1rem;
         /* text-align: center; */
+    }
+
+}
+
+@media (max-width:1024px) {
+    .slider__container {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+        gap: 0;
+    }
+
+    .slider__button__container {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .discount img {
+        display: none;
     }
 
 }

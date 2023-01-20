@@ -1,0 +1,174 @@
+.trending__main__div {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 2rem 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending__main__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+
+.trending__main__nav {
+    border-bottom: 0.0001px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+
+}
+
+.trending__main__nav li {
+    display: inline;
+    margin: 0 1rem;
+    cursor: pointer;
+    height: 100%;
+    font-weight: bold;
+    color: gray;
+
+    /* border-bottom: 1px solid red; */
+}
+
+.trending__main__nav li:hover {
+    color: #51aa1b;
+    transition: 0.3s;
+}
+
+.trending__item__container {
+    /* border: 2px solid rgb(76, 0, 255); */
+    padding: 1rem 0;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.trending__item__card {
+    border: 0.00001px solid rgba(211, 211, 211, 0.4);
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+
+.trending__item__card img {
+    max-width: 100%;
+}
+
+.trending__price__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.trending__item__card__info {
+    text-align: left;
+}
+
+.trending__price__container del {
+    color: lightgray;
+    font-weight: 400;
+}
+
+.trending__price__container span {
+    color: #51aa1b;
+    font-weight: bold;
+}
+
+.trending__cart__item__card__info p {
+    font-weight: bold;
+}
+
+.trending__cart__item__card__info p:hover {
+    color: #007bff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.addto__cart {
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    background: #51aa1b;
+    border-radius: 5px;
+    color: white;
+    margin-top: .5rem;
+
+}
+
+.addto__cart:hover {
+    background: none;
+    border: 1px solid #51aa1b;
+    color: #51aa1b;
+    transition: 0.2s;
+
+}
+
+.like__item {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: #51aa1b;
+    transform: translateY(-5rem);
+    cursor: pointer;
+}
+
+.trending__item__card:hover .like__item {
+    transform: translateY(0);
+    transition: 0.4s;
+}
+
+@media (max-width:700px) {
+    .trending__main__nav {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .trending__main__container {
+        width: 100%;
+        /* padding: 2rem; */
+    }
+
+    .trending__item__card {
+        width: 90%;
+    }
+}
+
+@media (max-width:1100px) {
+    .trending__item__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}

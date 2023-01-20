@@ -1,4 +1,5 @@
 .main__headerSearch__div {
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -114,7 +115,13 @@
         padding: 0.5rem 0;
     }
 }
-@media (max-width:450px) {
+
+
+@media (max-width:820px) {
+    .search__input__container {
+        display: none;
+    }
+
     .menue__btn {
         display: block;
     }
